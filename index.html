@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .main{
+            /* display: flex; */
+
+            background-color:rgba(128, 128, 128, 0.247);
+            width: 40%;
+            justify-content: center;
+            margin: auto;
+            margin-top:50px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            background-color:  rgba(128, 128, 128, 0.651);
+            width: 60%;
+            margin: auto;
+            margin-bottom: 3vh;
+        }
+        input{
+            display: block;
+            margin: auto;
+            
+        }
+        button{
+            display: block;
+            margin: auto;
+            background-color:  rgba(128, 128, 128, 0.651);
+            margin-top: 1vh;
+            margin-bottom: 1vh;
+        }
+        .result{
+            width: 100%;
+            text-align: center;
+            /* border:1px solid red; */
+        }
+        .temp{
+            font-weight: bold;
+            font-size: 5vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Weather Prediction</h1>
+        <input type="text"  placeholder="Enter City Name Here">
+        <button onclick="showweather(),startTime()" onclick="">Press Me</button>
+        <div class="result">
+            <div class="res"></div>
+            <div class="time"></div>
+            <div class="date"></div>
+            <div class="temp"></div>
+            <div class="comapre"></div>
+            <div class="forcast"></div>
+    </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

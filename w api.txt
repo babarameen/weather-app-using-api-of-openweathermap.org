@@ -1,0 +1,7 @@
+a406e426dbbf360294c1332a2d02c95f
+
+api.openweathermap.org/data/2.5/weather?q=lahore&appid=a406e426dbbf360294c1332a2d02c95f
+
+
+
+api.openweathermap.org/data/2.5/weather?q=lahore&appid=9c32abe06f00d0cc045a681ac8e6bd09
